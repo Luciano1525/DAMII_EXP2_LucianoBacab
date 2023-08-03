@@ -7,7 +7,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -48,6 +47,7 @@ public class Strimings extends AppCompatActivity {
         tvTipoUsu = (TextView) findViewById(R.id.tvTipoUsu);
         tvUsuarioR = (TextView) findViewById(R.id.tvUsuarioR);
 
+        //Recuperar la informacion del Perfil Seleccionado
         SharedPreferences sharedPreferences = getSharedPreferences("MiSharedPreferences", Context.MODE_PRIVATE);
         Set<String> dataSet = sharedPreferences.getStringSet("dataSet", new HashSet<>());
         Usuarios.addAll(dataSet);
@@ -79,6 +79,7 @@ public class Strimings extends AppCompatActivity {
         ibntnPeliAD1 = (ImageButton) findViewById(R.id.ibntnPeliAD1);
         ibntnPeliAD2 = (ImageButton) findViewById(R.id.ibntnPeliAD2);
 
+        //Resultados de peliculas visibles de acuerdo al tipo de perfil
         if (Edad > 0 && Edad<12){
             tvCategoria1.setVisibility(View.VISIBLE);
             ibntnPeliI1.setVisibility(View.VISIBLE);
@@ -361,7 +362,6 @@ public class Strimings extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
 
     }
-
 
     //Metodos para Peliculas
     private void Frozen(){
