@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Prime Netwixt</string>
+
+    <string name="Bienvenida">Bienvenido A Prime Netwixt!!</string>
+    <string name="Descripcion">Aplicacion que te llevará a un universo de entretenimiento sin límites! Aquí encontrarás una amplia variedad de películas, series, documentales y mucho más, seleccionados cuidadosamente para satisfacer todos tus gustos. Prepárate para sumergirte en emocionantes aventuras, reír a carcajadas y dejarte cautivar por historias inolvidables.</string>
+    <string name="Comenzar">Comenzar Netwixt</string>
+
+    <string name="Usuario">Predeterminado</string>
+    <string name="AgregarU">Agregar Usuario</string>
+    <string name="CambiarU">Cambiar de Usuario</string>
+
+    <string name="NombreU">Nombre del Usuario:</string>
+    <string name="NombreUE">Ejemplo: Lucas75</string>
+
+    <string name="EdadU">Edad del Usuario:</string>
+    <string name="EdadUE">000</string>
+
+    <string name="Peliculas">Peliculas</string>
+    <string name="Media">Media</string>
+    <string name="Pelicula">Pelicula:</string>
+    <string name="Salir">Salir</string>
+
+    <string-array name="TipoPerfil">
+        <item>Seleccione Tipo de Perfil</item>
+        <item>Infantil</item>
+        <item>Adolecente</item>
+        <item>Adulto</item>
+    </string-array>
+
+    <string name="CategoriaI">Categoria: Infantil</string>
+    <string name="CategoriaA">Categoria: Adolecente</string>
+    <string name="CategoriaAD">Categoria: Adulto</string>
+    <string name="Menus">Menu</string>
+
+</resources>

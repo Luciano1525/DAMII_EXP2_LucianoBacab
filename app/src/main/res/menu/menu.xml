@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/MAgregar"
+        android:title="@string/AgregarU"
+        android:tooltipText="Agregar Usuario"
+        />
+    <item
+        android:id="@+id/MCambiar"
+        android:title="@string/CambiarU"
+        android:tooltipText="Cambiar de Usuario"
+        />
+
+</menu>

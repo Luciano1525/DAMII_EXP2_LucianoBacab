@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Strimings">
+
+    <TextView
+        android:id="@+id/tvTipoUsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvUsuario"
+            android:layout_width="99dp"
+            android:layout_height="39dp"
+            android:text="Usuario:"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvUsuarioR"
+            android:layout_width="214dp"
+            android:layout_height="36dp"
+            android:text="@string/Usuario"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="-16dp">
+
+
+        <TextView
+            android:id="@+id/tvCategoria1"
+            android:layout_width="214dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:text=" Infantil"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibntnPeliI1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Peliculas"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@mipmap/frozen"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <View
+                android:id="@+id/separadori"
+                android:layout_width="2dp"
+                android:layout_height="21dp"
+                android:layout_margin="5sp"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/ibntnPeliI2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Peliculas"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@mipmap/enredados"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCategoria2"
+            android:layout_width="214dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:text=" Adolecente"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibntnPeliA1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Peliculas"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@mipmap/readyplayer"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <View
+                android:id="@+id/separadora"
+                android:layout_width="2dp"
+                android:layout_height="21dp"
+                android:layout_margin="5sp"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/ibntnPeliA2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Peliculas"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@mipmap/pixeles"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCategoria3"
+            android:layout_width="214dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:text=" Adultos"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibntnPeliAD1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Peliculas"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@mipmap/anabelle"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <View
+                android:id="@+id/separadorad"
+                android:layout_width="2dp"
+                android:layout_height="21dp"
+                android:layout_margin="5sp"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/ibntnPeliAD2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Peliculas"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@mipmap/conjuro"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
