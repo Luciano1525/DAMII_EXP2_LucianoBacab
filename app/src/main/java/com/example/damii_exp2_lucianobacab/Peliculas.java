@@ -247,5 +247,36 @@ public class Peliculas extends AppCompatActivity {
     }
 
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        // Detener la reproducción y liberar recursos del VideoView
+        if (vvPelicula != null) {
+            vvPelicula.stopPlayback();
+            vvPelicula = null;
+        }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        // Pausar la reproducción del VideoView
+        if (vvPelicula != null && vvPelicula.isPlaying()) {
+            vvPelicula.pause();
+        }
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+
+        // Detener la reproducción del VideoView
+        if (vvPelicula != null) {
+            vvPelicula.stopPlayback();
+        }
+    }
+
 
 }
