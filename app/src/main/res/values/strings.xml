@@ -8,6 +8,7 @@
     <string name="Usuario">Predeterminado</string>
     <string name="AgregarU">Agregar Usuario</string>
     <string name="CambiarU">Cambiar de Usuario</string>
+    <string name="Finalizar">Finalizar</string>
 
     <string name="NombreU">Nombre del Usuario:</string>
     <string name="NombreUE">Ejemplo: Lucas75</string>

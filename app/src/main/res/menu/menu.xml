@@ -11,5 +11,10 @@
         android:title="@string/CambiarU"
         android:tooltipText="Cambiar de Usuario"
         />
+    <item
+        android:id="@+id/MFinalizar"
+        android:title="@string/Finalizar"
+        android:tooltipText="Cambiar de Usuario"
+        />
 
 </menu>

@@ -357,6 +357,11 @@ public class Strimings extends AppCompatActivity {
             AlertDialog dialogo1 = Cambiar.create();
             dialogo1.show();
 
+        } else if(id==R.id.MFinalizar) {
+            Toast.makeText(getApplicationContext(), "Aplicacion Finalizada!", Toast.LENGTH_SHORT).show();
+            Log.i("INFO:", "App Finish");
+            finishAffinity();
+
         }
 
         return super.onOptionsItemSelected(item);
